@@ -1,3 +1,210 @@
+Вот доработанный код, который позволяет выбрать один из двух способов ввода ссылок: вручную в текстовое поле или загрузкой из файла:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS URL Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        .layers {
+            color: #333;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>WMS URL Checker</h1>
+    <p>Выберите один из способов ввода ссылок:</p>
+    <div>
+        <input type="radio" id="manualInput" name="inputType" value="manual" checked>
+        <label for="manualInput">Ввести вручную</label>
+        <br>
+        <input type="radio" id="fileInput" name="inputType" value="file">
+        <label for="fileInput">Загрузить из файла</label>
+    </div>
+    
+    <div id="manualInputDiv">
+        <p>Введите ссылки WMS:</p>
+        <textarea id="urls" rows="5" style="width: 100%;"></textarea>
+    </div>
+    
+    <div id="fileInputDiv" style="display: none;">
+        <p>Выберите файл со списком ссылок:</p>
+        <input type="file" id="fileInputField" />
+    </div>
+    
+    <button onclick="startCheck()">Проверить ссылки</button>
+    
+    <table id="results">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Статус</th>
+                <th>Слои</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        document.getElementsByName('inputType').forEach(input => {
+            input.addEventListener('change', () => {
+                const manualDiv = document.getElementById('manualInputDiv');
+                const fileDiv = document.getElementById('fileInputDiv');
+                if (input.value === "manual") {
+                    manualDiv.style.display = "block";
+                    fileDiv.style.display = "none";
+                } else {
+                    manualDiv.style.display = "none";
+                    fileDiv.style.display = "block";
+                }
+            });
+        });
+
+        function startCheck() {
+            const selectedInputType = document.querySelector('input[name="inputType"]:checked').value;
+            if (selectedInputType === "manual") {
+                const urls = document.getElementById('urls').value.split('\n');
+                checkUrls(urls);
+            } else {
+                const fileInput = document.getElementById('fileInputField').files[0];
+                if (!fileInput) {
+                    alert("Пожалуйста, выберите файл.");
+                    return;
+                }
+
+                const reader = new FileReader();
+                reader.onload = function (event) {
+                    const urls = event.target.result.split('\n');
+                    checkUrls(urls);
+                };
+                reader.readAsText(fileInput);
+            }
+        }
+
+        async function checkUrls(urls) {
+            const resultsTable = document.getElementById('results').getElementsByTagName('tbody')[0];
+            resultsTable.innerHTML = ""; // Очистка таблицы перед новой проверкой
+
+            for (let url of urls) {
+                if (url.trim() === "") continue; // Пропуск пустых строк
+
+                // Проверяем и исправляем URL, если нужно
+                url = url.trim();
+                if (!url.includes("service=WMS&request=GetCapabilities")) {
+                    if (url.includes("?")) {
+                        url += "&service=WMS&request=GetCapabilities";
+                    } else {
+                        url += "?service=WMS&request=GetCapabilities";
+                    }
+                }
+
+                const row = resultsTable.insertRow();
+                const urlCell = row.insertCell(0);
+                const statusCell = row.insertCell(1);
+                const layersCell = row.insertCell(2);
+
+                urlCell.textContent = url;
+
+                try {
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        statusCell.textContent = "Работает";
+                        statusCell.classList.add('success');
+                        const text = await response.text();
+                        const layers = extractLayers(text);
+                        layersCell.innerHTML = layers.length > 0 ? layers.join("<br>") : "Слои не найдены";
+                        layersCell.classList.add('layers');
+                    } else {
+                        statusCell.textContent = "Ошибка";
+                        statusCell.classList.add('error');
+                        layersCell.textContent = `Статус: ${response.status}`;
+                    }
+                } catch (error) {
+                    statusCell.textContent = "Ошибка";
+                    statusCell.classList.add('error');
+                    layersCell.textContent = error.message;
+                }
+            }
+        }
+
+        function extractLayers(xmlText) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+            const layerNodes = xmlDoc.getElementsByTagName("Layer");
+            const layers = [];
+
+            for (const layer of layerNodes) {
+                const titleNode = layer.getElementsByTagName("Title")[0];
+                if (titleNode) {
+                    layers.push(titleNode.textContent);
+                }
+            }
+
+            return layers;
+        }
+    </script>
+</body>
+</html>
+```
+
+### Что добавлено:
+1. **Выбор способа ввода**:
+   - Радиокнопки позволяют выбрать между ручным вводом ссылок и загрузкой файла.
+   - При выборе режима интерфейс адаптируется: отображается либо текстовое поле, либо поле загрузки файла.
+
+2. **Обработка выбранного метода**:
+   - Для ручного ввода ссылки разделяются по строкам.
+   - Для файла ссылки считываются из текстового файла, каждая строка — одна ссылка.
+
+3. **Коррекция URL**:
+   - Если в URL отсутствуют параметры `service=WMS&request=GetCapabilities`, они автоматически добавляются.
+
+4. **Универсальность**:
+   - Независимо от способа ввода, вывод результатов формируется в одной таблице.
+
+### Как использовать:
+1. Выберите способ ввода:
+   - "Ввести вручную" — заполните текстовое поле ссылками.
+   - "Загрузить из файла" — выберите файл с ссылками (одна ссылка на строку).
+2. Нажмите кнопку "Проверить ссылки".
+3. В таблице появятся исправленные ссылки, их статус и список слоёв.
+
+Если потребуется дальнейшее улучшение или добавление новых возможностей, дайте знать! 🚀
+
+
+
 Вот обновлённая версия кода, которая добавляет проверку для ссылок из файла: если у ссылки нет параметров `service=WMS&request=GetCapabilities`, они будут автоматически добавлены.
 
 ```html
