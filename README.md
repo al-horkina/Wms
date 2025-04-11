@@ -360,3 +360,160 @@
 4. Нажмите "Проверить ссылки" для начала проверки.
 
 Если потребуется добавить дополнительные функции (например, проверку специфичных параметров WMS), пишите, я помогу доработать! 🚀[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/buribalazs/smooth-drag-order/tree/7b40d21d076c3e31765f61481f537beaf4c5ec9f/README.md?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1")
+
+
+
+Да, конечно, вы можете вывести список слоёв (Layers) из ответа WMS в описании, чтобы сделать результат более информативным. Для этого можно выполнить разбор XML-ответа и извлечь теги `<Layer>` и `<Title>`. Вот обновлённый пример с добавлением этой функциональности:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS URL Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        .layers {
+            color: #333;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>WMS URL Checker</h1>
+    <p>Выберите файл со списком URL для проверки:</p>
+    <input type="file" id="fileInput" />
+    <button onclick="readFile()">Проверить ссылки</button>
+
+    <table id="results">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Статус</th>
+                <th>Слои</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        function readFile() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert("Пожалуйста, выберите файл.");
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function (event) {
+                const urls = event.target.result.split('\n');
+                checkUrls(urls);
+            };
+            reader.readAsText(file);
+        }
+
+        async function checkUrls(urls) {
+            const resultsTable = document.getElementById('results').getElementsByTagName('tbody')[0];
+            resultsTable.innerHTML = ""; // Очистка таблицы перед новой проверкой
+
+            for (const url of urls) {
+                if (url.trim() === "") continue; // Пропуск пустых строк
+
+                const row = resultsTable.insertRow();
+                const urlCell = row.insertCell(0);
+                const statusCell = row.insertCell(1);
+                const layersCell = row.insertCell(2);
+
+                urlCell.textContent = url;
+
+                try {
+                    const response = await fetch(url.trim());
+                    if (response.ok) {
+                        statusCell.textContent = "Работает";
+                        statusCell.classList.add('success');
+                        const text = await response.text();
+                        const layers = extractLayers(text);
+                        layersCell.innerHTML = layers.length > 0 ? layers.join("<br>") : "Слои не найдены";
+                        layersCell.classList.add('layers');
+                    } else {
+                        statusCell.textContent = "Ошибка";
+                        statusCell.classList.add('error');
+                        layersCell.textContent = `Статус: ${response.status}`;
+                    }
+                } catch (error) {
+                    statusCell.textContent = "Ошибка";
+                    statusCell.classList.add('error');
+                    layersCell.textContent = error.message;
+                }
+            }
+        }
+
+        function extractLayers(xmlText) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+            const layerNodes = xmlDoc.getElementsByTagName("Layer");
+            const layers = [];
+
+            for (const layer of layerNodes) {
+                const titleNode = layer.getElementsByTagName("Title")[0];
+                if (titleNode) {
+                    layers.push(titleNode.textContent);
+                }
+            }
+
+            return layers;
+        }
+    </script>
+</body>
+</html>
+```
+
+### Что добавлено:
+1. **Функция `extractLayers`**:
+   - Эта функция анализирует XML-ответ и извлекает все теги `<Title>` внутри `<Layer>`.
+   - Результаты формируются в виде массива, который отображается в таблице.
+
+2. **Отображение слоёв**:
+   - В таблице появилась дополнительная колонка "Слои", где выводятся названия всех слоёв, найденных в ответе.
+
+3. **Чистота кода**:
+   - Слои выводятся построчно с помощью HTML (`<br>`), чтобы их легко было читать.
+
+### Как использовать:
+1. Сохраните этот код как файл, например, `wms_checker_layers.html`.
+2. Откройте файл в браузере.
+3. Загрузите файл со списком WMS-ссылок (по одной ссылке на строку).
+4. В колонке "Слои" для каждой ссылки появится список доступных слоёв.
+
+Если потребуется что-то ещё, например, извлечение других метаданных или улучшение интерфейса, обращайтесь! 🚀
