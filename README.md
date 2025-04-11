@@ -1,3 +1,200 @@
+Вот полностью готовый HTML файл, который обрабатывает ситуацию, когда WMS-сервис возвращает файл на запрос HTTP. Этот файл позволяет загружать содержимое, проверять ссылки и загружать файлы автоматически:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS File Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        .layers {
+            color: #333;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>WMS File Checker</h1>
+    <p>Введите ссылки WMS вручную или выберите файл:</p>
+    <div>
+        <input type="radio" id="manualInput" name="inputType" value="manual" checked>
+        <label for="manualInput">Ввести вручную</label>
+        <br>
+        <input type="radio" id="fileInput" name="inputType" value="file">
+        <label for="fileInput">Загрузить из файла</label>
+    </div>
+    
+    <div id="manualInputDiv">
+        <p>Введите ссылки WMS:</p>
+        <textarea id="urls" rows="5" style="width: 100%;"></textarea>
+    </div>
+    
+    <div id="fileInputDiv" style="display: none;">
+        <p>Выберите файл со списком ссылок:</p>
+        <input type="file" id="fileInputField" />
+    </div>
+    
+    <button onclick="startCheck()">Проверить ссылки</button>
+    
+    <table id="results">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Статус</th>
+                <th>Содержимое файла</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        document.getElementsByName('inputType').forEach(input => {
+            input.addEventListener('change', () => {
+                const manualDiv = document.getElementById('manualInputDiv');
+                const fileDiv = document.getElementById('fileInputDiv');
+                if (input.value === "manual") {
+                    manualDiv.style.display = "block";
+                    fileDiv.style.display = "none";
+                } else {
+                    manualDiv.style.display = "none";
+                    fileDiv.style.display = "block";
+                }
+            });
+        });
+
+        function startCheck() {
+            const selectedInputType = document.querySelector('input[name="inputType"]:checked').value;
+            if (selectedInputType === "manual") {
+                const urls = document.getElementById('urls').value.split('\n');
+                checkUrls(urls);
+            } else {
+                const fileInput = document.getElementById('fileInputField').files[0];
+                if (!fileInput) {
+                    alert("Пожалуйста, выберите файл.");
+                    return;
+                }
+
+                const reader = new FileReader();
+                reader.onload = function (event) {
+                    const urls = event.target.result.split('\n');
+                    checkUrls(urls);
+                };
+                reader.readAsText(fileInput);
+            }
+        }
+
+        async function checkUrls(urls) {
+            const resultsTable = document.getElementById('results').getElementsByTagName('tbody')[0];
+            resultsTable.innerHTML = ""; // Очистка таблицы перед новой проверкой
+
+            for (let url of urls) {
+                if (url.trim() === "") continue; // Пропуск пустых строк
+
+                // Проверяем и исправляем URL, если нужно
+                url = url.trim();
+                if (!url.includes("service=WMS&request=GetCapabilities")) {
+                    if (url.includes("?")) {
+                        url += "&service=WMS&request=GetCapabilities";
+                    } else {
+                        url += "?service=WMS&request=GetCapabilities";
+                    }
+                }
+
+                const row = resultsTable.insertRow();
+                const urlCell = row.insertCell(0);
+                const statusCell = row.insertCell(1);
+                const fileContentCell = row.insertCell(2);
+
+                urlCell.textContent = url;
+
+                try {
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        statusCell.textContent = "Работает";
+                        statusCell.classList.add('success');
+                        
+                        // Проверяем, возвращает ли сервер файл
+                        const blob = await response.blob();
+                        const fileReader = new FileReader();
+                        fileReader.onload = function () {
+                            const content = fileReader.result;
+                            fileContentCell.innerHTML = content.length > 0 
+                                ? content.substring(0, 500) + "..." // Ограничиваем вывод содержимого файла
+                                : "Содержимое файла отсутствует.";
+                        };
+                        fileReader.readAsText(blob);
+                    } else {
+                        statusCell.textContent = "Ошибка";
+                        statusCell.classList.add('error');
+                        fileContentCell.textContent = `Статус: ${response.status}`;
+                    }
+                } catch (error) {
+                    statusCell.textContent = "Ошибка";
+                    statusCell.classList.add('error');
+                    fileContentCell.textContent = error.message;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+```
+
+### Как работает:
+1. **Выбор способа ввода**:
+   - Вы можете ввести ссылки вручную или загрузить файл со списком ссылок.
+   - Если выбран режим "Ввести вручную", текстовое поле отображается. Если выбран режим "Загрузить из файла", появляется поле для загрузки файла.
+
+2. **Проверка URL**:
+   - Ссылки проверяются на наличие параметров `service=WMS&request=GetCapabilities`. Если параметры отсутствуют, они автоматически добавляются.
+
+3. **Обработка файлов**:
+   - Если сервер возвращает файл, его содержимое считывается (в случае текстового файла, например, XML).
+   - Выводится максимум 500 символов содержимого файла, чтобы избежать перегрузки интерфейса.
+
+4. **Результаты**:
+   - Таблица отображает URL, статус запроса и первые строки содержимого возвращённого файла.
+
+### Как использовать:
+1. Сохраните код в HTML-файл, например, `wms_file_checker.html`.
+2. Откройте файл в браузере.
+3. Введите ссылки вручную или загрузите файл со списком ссылок.
+4. Нажмите "Проверить ссылки", чтобы увидеть результаты проверки.
+
+Если потребуется доработка, например, добавление автоматической загрузки файла на компьютер, дайте знать! 😊
+
+
+
 Вот доработанный код, который позволяет выбрать один из двух способов ввода ссылок: вручную в текстовое поле или загрузкой из файла:
 
 ```html
