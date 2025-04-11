@@ -1,3 +1,150 @@
+Вот обновлённая версия вашего кода с добавлением проверки: если у ссылки нет параметров `service=WMS&request=GetCapabilities` в конце, они будут автоматически добавлены:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS URL Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        .layers {
+            color: #333;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>WMS URL Checker</h1>
+    <p>Введите ссылки WMS для проверки их работоспособности:</p>
+    <textarea id="urls" rows="5" style="width: 100%;"></textarea>
+    <button onclick="checkUrls()">Проверить ссылки</button>
+    
+    <table id="results">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Статус</th>
+                <th>Слои</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        async function checkUrls() {
+            const urls = document.getElementById('urls').value.split('\n');
+            const resultsTable = document.getElementById('results').getElementsByTagName('tbody')[0];
+            resultsTable.innerHTML = ""; // Очистка таблицы перед новой проверкой
+            
+            for (let url of urls) {
+                if (url.trim() === "") continue; // Пропуск пустых строк
+
+                // Проверяем, заканчивается ли URL на параметры `service=WMS&request=GetCapabilities`
+                url = url.trim();
+                if (!url.includes("service=WMS&request=GetCapabilities")) {
+                    if (url.includes("?")) {
+                        url += "&service=WMS&request=GetCapabilities";
+                    } else {
+                        url += "?service=WMS&request=GetCapabilities";
+                    }
+                }
+
+                const row = resultsTable.insertRow();
+                const urlCell = row.insertCell(0);
+                const statusCell = row.insertCell(1);
+                const layersCell = row.insertCell(2);
+
+                urlCell.textContent = url;
+
+                try {
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        statusCell.textContent = "Работает";
+                        statusCell.classList.add('success');
+                        const text = await response.text();
+                        const layers = extractLayers(text);
+                        layersCell.innerHTML = layers.length > 0 ? layers.join("<br>") : "Слои не найдены";
+                        layersCell.classList.add('layers');
+                    } else {
+                        statusCell.textContent = "Ошибка";
+                        statusCell.classList.add('error');
+                        layersCell.textContent = `Статус: ${response.status}`;
+                    }
+                } catch (error) {
+                    statusCell.textContent = "Ошибка";
+                    statusCell.classList.add('error');
+                    layersCell.textContent = error.message;
+                }
+            }
+        }
+
+        function extractLayers(xmlText) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+            const layerNodes = xmlDoc.getElementsByTagName("Layer");
+            const layers = [];
+
+            for (const layer of layerNodes) {
+                const titleNode = layer.getElementsByTagName("Title")[0];
+                if (titleNode) {
+                    layers.push(titleNode.textContent);
+                }
+            }
+
+            return layers;
+        }
+    </script>
+</body>
+</html>
+```
+
+### Что изменено:
+1. **Проверка и добавление параметров**:
+   - Перед выполнением запроса проверяется, есть ли в URL параметры `service=WMS&request=GetCapabilities`.
+   - Если их нет, они добавляются. URL корректируется в зависимости от наличия символа `?`.
+
+2. **Гибкость работы**:
+   - Поддерживаются URL с уже существующими параметрами.
+   - Если URL не содержит параметров, они добавляются корректно.
+
+### Как использовать:
+1. Введите ссылки (можно без параметров `service=WMS&request=GetCapabilities`).
+2. Нажмите "Проверить ссылки".
+3. Таблица выведет статус и список слоёв для каждого исправленного URL.
+
+Если нужно ещё что-то улучшить, пишите! 😊
+
+
 Вот пример HTML-страницы, которая включает визуализацию для проверки работоспособности WMS-ссылок. Она использует JavaScript для выполнения запросов и выводит результаты в удобном формате:
 
 ```html
