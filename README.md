@@ -1,3 +1,174 @@
+Вот обновлённая версия кода, которая добавляет проверку для ссылок из файла: если у ссылки нет параметров `service=WMS&request=GetCapabilities`, они будут автоматически добавлены.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS URL Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        .layers {
+            color: #333;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>WMS URL Checker</h1>
+    <p>Выберите файл со списком URL для проверки:</p>
+    <input type="file" id="fileInput" />
+    <button onclick="readFile()">Проверить ссылки</button>
+
+    <table id="results">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Статус</th>
+                <th>Слои</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        function readFile() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert("Пожалуйста, выберите файл.");
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function (event) {
+                const urls = event.target.result.split('\n');
+                checkUrls(urls);
+            };
+            reader.readAsText(file);
+        }
+
+        async function checkUrls(urls) {
+            const resultsTable = document.getElementById('results').getElementsByTagName('tbody')[0];
+            resultsTable.innerHTML = ""; // Очистка таблицы перед новой проверкой
+
+            for (let url of urls) {
+                if (url.trim() === "") continue; // Пропуск пустых строк
+
+                // Проверяем и исправляем URL, если нужно
+                url = url.trim();
+                if (!url.includes("service=WMS&request=GetCapabilities")) {
+                    if (url.includes("?")) {
+                        url += "&service=WMS&request=GetCapabilities";
+                    } else {
+                        url += "?service=WMS&request=GetCapabilities";
+                    }
+                }
+
+                const row = resultsTable.insertRow();
+                const urlCell = row.insertCell(0);
+                const statusCell = row.insertCell(1);
+                const layersCell = row.insertCell(2);
+
+                urlCell.textContent = url;
+
+                try {
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        statusCell.textContent = "Работает";
+                        statusCell.classList.add('success');
+                        const text = await response.text();
+                        const layers = extractLayers(text);
+                        layersCell.innerHTML = layers.length > 0 ? layers.join("<br>") : "Слои не найдены";
+                        layersCell.classList.add('layers');
+                    } else {
+                        statusCell.textContent = "Ошибка";
+                        statusCell.classList.add('error');
+                        layersCell.textContent = `Статус: ${response.status}`;
+                    }
+                } catch (error) {
+                    statusCell.textContent = "Ошибка";
+                    statusCell.classList.add('error');
+                    layersCell.textContent = error.message;
+                }
+            }
+        }
+
+        function extractLayers(xmlText) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+            const layerNodes = xmlDoc.getElementsByTagName("Layer");
+            const layers = [];
+
+            for (const layer of layerNodes) {
+                const titleNode = layer.getElementsByTagName("Title")[0];
+                if (titleNode) {
+                    layers.push(titleNode.textContent);
+                }
+            }
+
+            return layers;
+        }
+    </script>
+</body>
+</html>
+```
+
+### Что изменено:
+1. **Проверка и исправление URL**:
+   - Если параметры `service=WMS&request=GetCapabilities` отсутствуют, они добавляются автоматически.
+   - Логика добавления учитывает наличие символа `?`.
+
+2. **Работа с файлом**:
+   - Ссылки считываются из файла (по одной на строку).
+   - Если строки пустые, они пропускаются.
+
+3. **Извлечение слоёв**:
+   - Слои извлекаются из XML-ответа, как и в предыдущем примере.
+
+4. **Результаты**:
+   - Исправленные URL отображаются в таблице.
+   - Список слоёв выводится построчно.
+
+### Как использовать:
+1. Создайте текстовый файл со списком URL (по одному на строку).
+2. Загрузите файл через кнопку "Выберите файл".
+3. Нажмите "Проверить ссылки", чтобы увидеть исправленные URL, их статус и список слоёв.
+
+Если хотите добавить что-то ещё, например, более детальную обработку или экспорт данных, дайте знать! 🚀[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/EleanorEllingson/web-dev/tree/b2f2a382e77a20fd6895677c8b8f402ac4bae352/7-bank-project%2F1-template-route%2Ftranslations%2FREADME.ko.md?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1")
+
+
+
 Вот обновлённая версия вашего кода с добавлением проверки: если у ссылки нет параметров `service=WMS&request=GetCapabilities` в конце, они будут автоматически добавлены:
 
 ```html
