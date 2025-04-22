@@ -1,3 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WMS Viewer</title>
+    <style>
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow: auto;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>WMS Viewer</h1>
+    <button onclick="loadWMS()">Загрузить WMS</button>
+    <pre id="responseContainer">Здесь появится ответ от WMS...</pre>
+
+    <script>
+        async function loadWMS() {
+            const wmsUrl = "https://ваш_сервис/wms?service=WMS&request=GetCapabilities";
+
+            try {
+                const response = await fetch(wmsUrl);
+                if (response.ok) {
+                    const text = await response.text();
+                    document.getElementById("responseContainer").textContent = text;
+                } else {
+                    document.getElementById("responseContainer").textContent = `Ошибка: ${response.status}`;
+                }
+            } catch (error) {
+                document.getElementById("responseContainer").textContent = `Произошла ошибка: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
 Вот полностью готовый HTML файл, который обрабатывает ситуацию, когда WMS-сервис возвращает файл на запрос HTTP. Этот файл позволяет загружать содержимое, проверять ссылки и загружать файлы автоматически:
 
 ```html
