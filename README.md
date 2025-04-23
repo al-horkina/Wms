@@ -1,3 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS XML Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        button {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow: auto;
+            white-space: pre-wrap;
+            max-height: 600px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>WMS XML Viewer</h1>
+    <p>Просмотр содержимого XML файла, возвращённого WMS-сервисом</p>
+    <button onclick="loadWMS()">Загрузить XML</button>
+    <pre id="responseContainer
+
+
+
+
+
 Вот полностью готовый HTML файл, который обрабатывает ситуацию, когда WMS-сервис возвращает файл без расширения, открывая содержимое прямо в браузере:
 
 ```html
