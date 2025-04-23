@@ -1,3 +1,104 @@
+Вот обновлённая версия вашего HTML кода, которая обрабатывает XML файл, возвращаемый сервером, и правильно выводит его содержимое. В данном решении добавлена обработка XML-файла и его визуализация:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS XML Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        button {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow: auto;
+            white-space: pre-wrap;
+            max-height: 600px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>WMS XML Viewer</h1>
+    <p>Просмотр содержимого XML файла, возвращённого WMS-сервисом</p>
+    <button onclick="loadWMS()">Загрузить XML</button>
+    <pre id="responseContainer">Здесь появится содержимое XML...</pre>
+
+    <script>
+        async function loadWMS() {
+            const wmsUrl = "https://geo.rmv.de/cgi-bin/qgis_mapserv.fcgi?map=/data/qgisweb/wms_bus_rerb_sbahn_strb_ubahn.qgs&VERSION=1.3.0&service=WMS&request=GetCapabilities";
+
+            try {
+                const response = await fetch(wmsUrl, { method: "GET" });
+                if (response.ok) {
+                    const text = await response.text();
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(text, "application/xml");
+
+                    // Проверка на ошибки при парсинге XML
+                    if (xmlDoc.getElementsByTagName("parsererror").length > 0) {
+                        document.getElementById("responseContainer").textContent = "Ошибка: Невозможно распарсить XML.";
+                        return;
+                    }
+
+                    // Форматируем содержимое XML для отображения
+                    const xmlString = new XMLSerializer().serializeToString(xmlDoc);
+                    document.getElementById("responseContainer").textContent = xmlString;
+                } else {
+                    document.getElementById("responseContainer").textContent = 
+                        `Ошибка: сервер вернул статус ${response.status}`;
+                }
+            } catch (error) {
+                document.getElementById("responseContainer").textContent = 
+                    `Произошла ошибка: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>
+```
+
+### Что изменено:
+1. **Добавлена обработка XML**:
+   - XML, возвращаемый сервером, считывается с помощью `DOMParser`.
+   - Если парсер не может обработать XML, выводится сообщение об ошибке.
+
+2. **Форматирование XML**:
+   - XML преобразуется в строку с помощью `XMLSerializer` для красивого отображения в блоке `<pre>`.
+
+3. **Обработка ошибок**:
+   - Если сервер возвращает статус ошибки или XML не может быть обработан, пользователю выводится подробное описание проблемы.
+
+4. **Вывод XML**:
+   - XML-данные отображаются в формате, который сохраняет иерархическую структуру (как исходный документ).
+
+### Как использовать:
+1. Скопируйте этот код и сохраните его как файл, например, `wms_xml_viewer.html`.
+2. Откройте файл в браузере.
+3. Нажмите кнопку "Загрузить XML", чтобы загрузить и просмотреть содержимое WMS-документа.
+
+Если возникнут вопросы или понадобится доработка (например, извлечение конкретных данных из XML), сообщите мне! 😊
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
