@@ -1,3 +1,17 @@
+Betreff: Anleitung zum WebGIS-Update
+
+Sehr geehrte Damen und Herren,  
+anbei erhalten Sie die Anleitung zum aktuellen WebGIS-Update.  
+Die Beschreibung der neuen Funktionen finden Sie im beigefügten Word-Dokument.
+
+Bei Fragen stehen wir Ihnen gerne zur Verfügung.
+
+Mit freundlichen Grüßen  
+[Dein Name oder Teamname]
+
+
+
+
 WebGIS-Update  
 Im Rahmen des letzten Updates wurde ein neuer Layer mit dem Namen Altfläche hinzugefügt. Dieser Layer ist im Reiter Umwelt zu finden.  
 Um Informationen zu einer Fläche zu erhalten, klicken Sie bitte auf das entsprechende Element.  
