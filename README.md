@@ -1,3 +1,13 @@
+WebGIS-Update  
+Im Rahmen des letzten Updates wurde ein neuer Layer mit dem Namen Altfläche hinzugefügt. Dieser Layer ist im Reiter Umwelt zu finden.  
+Um Informationen zu einer Fläche zu erhalten, klicken Sie bitte auf das entsprechende Element.  
+Für eine komfortablere Auswahl kann das Werkzeug Auswahl verwendet werden.  
+Detaillierte Informationen sind in der zugehörigen Karteikarte verfügbar.
+
+
+
+
+
 Вот пример кода для случая 1, где запрос отправляется с использованием режима `no-cors`, но без вывода содержимого ответа:
 
 ```html
