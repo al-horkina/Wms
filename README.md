@@ -1,3 +1,22 @@
+Sehr geehrte Damen und Herren,
+
+vielen Dank für Ihre Anfrage.
+
+Ein eingeschränkter Zugang zum Geodatenportal für die kommunalen Feuerwehrinspektoren ist grundsätzlich möglich. Dabei können relevante Informationen wie Entnahmestellen angezeigt werden, während ALKIS-Daten, z. B. zu Grundstückseigentümern, ausgeblendet bleiben.
+
+Allerdings wurde die maximal zulässige Anzahl an Nutzerkonten bereits erreicht. Könnten Sie uns bitte mitteilen, ob die Mitarbeitenden X und Y weiterhin Zugriff benötigen? Falls nicht, könnten wir deren Konten deaktivieren und den Zugang entsprechend neu vergeben.
+
+Wir freuen uns auf Ihre Rückmeldung.
+
+Mit freundlichen Grüßen  
+
+
+
+
+
+
+
+
 Betreff: Anleitung zum WebGIS-Update
 
 Sehr geehrte Damen und Herren,  
