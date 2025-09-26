@@ -1,3 +1,37 @@
+Вот обновлённая версия письма без выражения радости:
+
+---
+
+Betreff: Zugang zum WebGIS-Portal
+
+Sehr geehrter Herr X,
+
+vielen Dank für Ihr Interesse an unserem WebGIS-Portal. Gerne stellen wir Ihnen den Zugang zur Verfügung.
+
+Damit wir die entsprechenden Zugänge einrichten können, benötigen wir für jede Person, die Zugriff erhalten soll, folgende Informationen:
+
+- Vorname  
+- Nachname  
+- Telefonnummer  
+- E-Mail-Adresse
+
+Bitte beachten Sie, dass wir maximal fünf Zugänge zur Verfügung stellen können.
+
+Für Rückfragen stehen wir Ihnen selbstverständlich jederzeit zur Verfügung und erwarten Ihre Rückmeldung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position]  
+[Ihr Unternehmen]
+
+---
+
+Хочешь, я могу также помочь составить письмо-напоминание, если ответа долго не будет.
+
+
+
+
+
 Sehr geehrte Damen und Herren,
 
 vielen Dank für Ihre Anfrage.
