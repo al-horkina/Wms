@@ -1,3 +1,38 @@
+Вот обновлённое письмо-напоминание без повторения содержания первого письма:
+
+---
+
+Betreff: Erinnerung – Zugang zum WebGIS-Portal
+
+Sehr geehrter Herr X,
+
+ich wollte mich kurz erkundigen, ob Sie meine letzte Nachricht erhalten haben. Bisher habe ich leider keine Rückmeldung von Ihnen bekommen.
+
+Ich würde Ihnen weiterhin gerne die Zugänge zum WebGIS-Portal zur Verfügung stellen. Könnten Sie mir bitte die Informationen zu den Personen senden, die Zugriff benötigen?  
+
+Erforderlich sind:  
+- Vorname  
+- Nachname  
+- Telefonnummer  
+- E-Mail-Adresse  
+
+Bitte beachten Sie, dass maximal fünf Zugänge vergeben werden können.
+
+Vielen Dank im Voraus. Bei Fragen stehe ich Ihnen selbstverständlich gerne zur Verfügung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position]  
+[Ihr Unternehmen]
+
+---
+
+Если хочешь, я могу помочь составить ещё более краткую или формальную версию.
+
+
+
+
+
 Вот обновлённая версия письма без выражения радости:
 
 ---
