@@ -1,3 +1,30 @@
+Конечно! Вот пример письма на немецком языке, которое вы можете отправить госпоже Х:
+
+---
+
+Betreff: Zugang zum WebGIS-Portal für neue Kollegin
+
+Sehr geehrte Frau X,
+
+gerne stelle ich den Zugang zum WebGIS-Portal für Ihre neue Kollegin zur Verfügung. Ich werde die Zugangsdaten wie gewohnt per Post zusenden. Für diesen Zugang fallen keine zusätzlichen Kosten an.
+
+Den Zugang zum Desktop-GIS kann Herr U bereitstellen. Er befindet sich derzeit im Urlaub und wird ab Montag wieder im Büro sein.
+
+Bei weiteren Fragen stehe ich Ihnen selbstverständlich gerne zur Verfügung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position]  
+[Ihr Unternehmen]
+
+---
+
+Если нужно, могу также подготовить письмо для Херра У или для новой коллеги.
+
+
+
+
+
 Вот обновлённое письмо-напоминание без повторения содержания первого письма:
 
 ---
