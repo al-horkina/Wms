@@ -1,3 +1,32 @@
+Конечно! Вот пример письма на немецком языке:
+
+---
+
+Betreff: Deaktivierung des WebGIS-Zugangs
+
+Sehr geehrte Frau X,
+
+ich möchte Sie darüber informieren, dass der WebGIS-Zugang von Frau U bereits deaktiviert wurde.
+
+Falls Sie möchten, kann ich Ihnen gerne eine aktuelle Liste aller Personen zusenden, die derzeit Zugriff auf das Portal haben. So können Sie prüfen, ob es weitere Zugänge gibt, die nicht mehr benötigt werden.
+
+Bei Rückfragen stehe ich Ihnen selbstverständlich jederzeit zur Verfügung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position]  
+[Ihr Unternehmen]
+
+---
+
+Если нужно, могу также подготовить список в виде таблицы или помочь с письмом для других сотрудников.
+
+
+
+
+
+
+
 Конечно! Вот пример письма на немецком языке, которое вы можете отправить госпоже Х:
 
 ---
