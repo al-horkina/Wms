@@ -1,3 +1,34 @@
+Вот письмо на немецком языке, которое вы можете использовать:
+
+---
+
+Betreff: WebGIS-Zugang – Warteliste für neue Lizenz
+
+Sehr geehrte Frau X,
+
+sobald eine Lizenz wieder verfügbar ist, kann ich gerne einem anderen Kollegen oder einer anderen Kollegin den Zugang zum WebGIS-Portal einrichten.
+
+Damit ich dies vorbereiten kann, bitte ich Sie, mir folgende Informationen zur betreffenden Person zu senden:
+
+- Vorname  
+- Nachname  
+- E-Mail-Adresse  
+- Abteilung
+
+Vielen Dank im Voraus. Bei Fragen stehe ich Ihnen selbstverständlich gerne zur Verfügung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position]  
+[Ihr Unternehmen]
+
+---
+
+Если хотите, могу также помочь составить автоматическое уведомление, когда лицензия освободится.
+
+
+
+
 Конечно! Вот пример письма на немецком языке:
 
 ---
