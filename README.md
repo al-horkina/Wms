@@ -1,3 +1,32 @@
+Конечно! Вот обновлённая версия письма с более простым началом:
+
+---
+
+Betreff: WebGIS-Zugänge – Aktualisierung
+
+Sehr geehrte Frau X,
+
+die Zugänge von Herrn A und Herrn B sind deaktiviert.
+
+Herr X erhält seinen Zugang wie gewohnt per Post.
+
+Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position]  
+[Ihr Unternehmen]
+
+---
+
+Если хочешь, можем добавить дату отправки или уточнение, когда доступ был отключён.
+
+
+
+
+
+
+
 Вот письмо на немецком языке, которое вы можете использовать:
 
 ---
