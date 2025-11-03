@@ -1,3 +1,32 @@
+Конечно, вот пример письма на немецком языке, которое вы можете отправить Herrn X:
+
+---
+
+Betreff: Zugang zum WebGIS-Bürgerportal
+
+Sehr geehrter Herr X,
+
+wir freuen uns, Ihnen mitteilen zu können, dass das WebGIS-Bürgerportal nun vorbereitet ist und für Tests zur Verfügung steht. Sie können das Portal über folgenden Link aufrufen:
+
+👉 [http://...]  
+
+Gerne können Sie alle Funktionen testen und uns Rückmeldung geben. Falls Sie Änderungswünsche oder Anmerkungen haben, setzen wir diese selbstverständlich um.
+
+Bei Fragen stehen wir Ihnen jederzeit zur Verfügung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position]  
+[Organisation/Firma]
+
+---
+
+Если хотите, я могу адаптировать письмо под более формальный или наоборот — более дружелюбный стиль. Или добавить подпись, если вы укажете, от кого оно.
+
+
+
+
+
 Конечно, вот более вежливая и дипломатичная формулировка:
 
 ---
