@@ -1,3 +1,30 @@
+Отлично, вот обновлённый вариант письма с сохранением первой части и заменой фразы „Außerdem haben wir gehört…“ на более нейтральную и профессиональную формулировку:
+
+---
+
+Betreff: Rückmeldung zum WebGIS-Portal
+
+Sehr geehrter Herr X,
+
+wir möchten uns erkundigen, ob Sie mit dem aktuellen Stand des WebGIS-Portals zufrieden sind. Bisher haben wir keine Rückmeldung von Ihnen erhalten und würden gerne wissen, ob alles Ihren Erwartungen entspricht.
+
+Uns wurde mitgeteilt, dass eventuell Anpassungen am Design des Hauptportals gewünscht sind. Falls dem so ist, wären wir Ihnen dankbar, wenn Sie uns nähere Informationen zu den gewünschten Änderungen geben könnten.
+
+Für Ihre Rückmeldung danken wir Ihnen im Voraus.
+
+Mit freundlichen Grüßen  
+[Dein Name]  
+[Deine Position]  
+[Dein Unternehmen]
+
+---
+
+Если хочешь, могу предложить ещё более лаконичную или формальную версию.
+
+
+
+
+
 Вот элегантный и вежливый вариант письма на немецком языке:
 
 ---
