@@ -1,3 +1,27 @@
+Вот элегантный и вежливый вариант письма на немецком языке:
+
+---
+
+Betreff: Aktualisierung der WebGIS-Zugänge
+
+Sehr geehrte Frau X,
+
+wir möchten Sie darüber informieren, dass wir die Zugänge zum WebGIS aktualisiert haben. Frau U und Frau Z werden ihre persönlichen Zugangsdaten in Kürze per E-Mail erhalten.
+
+Sollten darüber hinaus weitere Zugänge benötigt werden oder Fragen bestehen, stehen wir Ihnen selbstverständlich gerne zur Verfügung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position, falls relevant]  
+[Organisation/Firma]
+
+---
+
+Если хочешь, могу адаптировать письмо под конкретную ситуацию или стиль — формальный, дружелюбный, с добавлением деталей.
+
+
+
+
 Конечно, вот пример письма на немецком языке, которое вы можете отправить Herrn X:
 
 ---
