@@ -1,3 +1,34 @@
+Вот обновлённый вариант письма с заменой „Anliegen“ на „Anfrage“:
+
+---
+
+Betreff: Zugang zum Portal für Frau X
+
+Sehr geehrte Damen und Herren,
+
+vielen Dank für Ihre Anfrage. Ich habe Ihre Anfrage übernommen.  
+Frau X wird den Zugang zum Portal per Post erhalten.
+
+Sollten Sie weitere Anliegen haben, kommen Sie gerne auf mich zu.
+
+Mit freundlichen Grüßen  
+[Dein Name]
+
+---
+
+Если хочешь, можно ещё немного варьировать, чтобы избежать повтора слова „Anfrage“ дважды подряд. Например:
+
+> Vielen Dank für Ihre Nachricht. Ich habe Ihre Anfrage übernommen.
+
+Или:
+
+> Vielen Dank für Ihre Anfrage. Ich kümmere mich darum.
+
+Хочешь, предложу ещё более элегантную версию?
+
+
+
+
 Отлично, вот обновлённый вариант письма с сохранением первой части и заменой фразы „Außerdem haben wir gehört…“ на более нейтральную и профессиональную формулировку:
 
 ---
