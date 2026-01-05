@@ -1,3 +1,36 @@
+Вот предложение для письма на немецком языке, учитывающее все ваши пожелания:
+
+---
+
+Betreff: Anpassung des Berichtsformats im Portal Neuberg
+
+Sehr geehrte Damen und Herren,
+
+vielen Dank für die Bereitstellung des Berichts im Portal Neuberg.
+
+Wir möchten einige Anpassungswünsche hinsichtlich der Darstellung der Tabellen äußern:
+
+- In der Tabelle „Flurstück“ bitten wir um folgende Spaltenreihenfolge: Hausnummer, Straße, Ort.
+- Die Tabelle „Eigentümer“ sollte die Spalten Nachname, Vorname, Geburtsdatum enthalten.
+- In der Tabelle „Nutzungsart“ wünschen wir die Reihenfolge: Bezeichnung, Beschreibung.
+- Die Tabellen „Buchung“ und „Namensnummer“ werden von uns nicht benötigt und sollten daher im Bericht nicht ausgegeben werden.
+- Hinsichtlich des Tabellenstils bitten wir darum, den blauen Hintergrund der Tabellenüberschriften durch einen hellgrauen zu ersetzen und den Text in fett und schwarz darzustellen.
+
+Für Rückfragen stehen wir gerne zur Verfügung und danken Ihnen im Voraus für die Umsetzung.
+
+Mit freundlichen Grüßen  
+[Ihr Name]  
+[Ihre Position, falls relevant]  
+[Ihr Unternehmen oder Ihre Organisation]
+
+---
+
+Если вы хотите адаптировать письмо под конкретного получателя или добавить детали (например, номер отчёта, дату, имя адресата), я с радостью помогу.
+
+
+
+
+
 Вот обновлённый вариант письма с заменой „Anliegen“ на „Anfrage“:
 
 ---
