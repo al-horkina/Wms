@@ -1,3 +1,16 @@
+Конечно! Вот более дружелюбный и всё ещё профессиональный вариант:
+
+---
+
+Wir würden uns freuen, wenn Adresse und Logo zunächst als Kopfzeile erscheinen und der Titel anschließend zentriert dargestellt wird. Falls die Tabelle „Flurstück“ auf eine neue Seite verschoben wird, entsteht auf der ersten Seite etwas mehr Platz für die übrigen Inhalte. Außerdem würden wir die Tabellen gerne in einem neutraleren Stil gestalten: ohne blauen Hintergrund und mit schwarzer Schrift. Ein Beispiel, wie das aussehen könnte, finden Sie im beigefügten Dokument.
+
+---
+
+Если хотите, могу объединить это с предыдущими формулировками в единое письмо.
+
+
+
+
 Вот предложение для письма на немецком языке, учитывающее все ваши пожелания:
 
 ---
