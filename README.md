@@ -1,4 +1,45 @@
 
+Вот перевод твоего вопроса на немецкий язык в стиле технической инструкции:
+
+Wie kann ich die Schriftgröße (Zoom) von Beschriftungen in einer WebGIS-Anwendung ändern?
+
+Если ты хочешь, я могу продолжить инструкцию и описать возможные способы изменения масштаба текста в WebGIS — например, через CSS, Leaflet, OpenLayers или другие библиотеки. Напиши, в каком контексте ты работаешь: какая именно WebGIS-платформа или библиотека используется?
+
+
+
+
+
+Вот как это можно выразить по-немецки в контексте технической инструкции:
+
+Dazu muss die Datei unter folgendem Pfad geöffnet und die Änderung an dieser Stelle vorgenommen werden:
+
+Если ты хочешь, я могу продолжить и оформить весь абзац как часть инструкции, например:
+
+---
+
+Schriftgröße der Beschriftungen (Labels) in der WebGIS-Anwendung ändern
+
+1. Öffnen Sie die Datei unter folgendem Pfad:  
+   Pfad/zur/Datei.css (bitte genauen Pfad angeben)
+
+2. Suchen Sie die entsprechende CSS-Klasse oder den Stil, der für die Beschriftungen zuständig ist (z. B. .label, .map-label, etc.).
+
+3. Ändern Sie die Schriftgröße wie folgt:
+   `css
+   .label {
+       font-size: 14px; / gewünschte Schriftgröße anpassen /
+   }
+   `
+
+4. Speichern Sie die Datei und laden Sie die WebGIS-Anwendung neu, um die Änderungen zu übernehmen.
+
+---
+
+Если ты используешь конкретную библиотеку (например, Leaflet, OpenLayers или ArcGIS), я могу адаптировать инструкцию под неё. Хочешь?
+
+
+
+
 Вот корректный и вежливый вариант письма на немецком языке:
 
 ---
