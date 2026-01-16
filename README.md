@@ -1,3 +1,25 @@
+
+Вот корректный и вежливый вариант письма на немецком языке:
+
+---
+
+Betreff: Telefontermin um 10:00 Uhr
+
+Guten Morgen, Herr X,
+
+vielen Dank für Ihre schnelle Rückmeldung.
+
+Für das Telefonat passt uns 10:00 Uhr gut. Falls Ihnen dieser Zeitpunkt ebenfalls zusagt, rufen Sie mich bitte an.
+
+Mit freundlichen Grüßen  
+[Ihr Name]
+
+---
+
+Если вы хотите добавить больше деталей (например, номер телефона, тему звонка или подпись), я могу адаптировать текст.
+
+
+
 Вот обновлённый вариант письма с добавлением фразы о том, что вы были бы рады помощи:
 
 ---
