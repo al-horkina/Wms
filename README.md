@@ -1,3 +1,27 @@
+Вот аккуратно оформленный и стилистически корректный вариант письма на немецком — без лишних формальностей, но профессионально и по делу:
+
+---
+
+Betreff: Fehler nach Ubuntu-Server-Update – Bitte um Unterstützung
+
+Sehr geehrter Herr Jansen,
+
+nach dem jüngsten Update unserer Ubuntu-Server haben wir die Systemfunktionen überprüft und dabei mehrere Fehler festgestellt. Auf einigen Portalen werden verschiedene Themes nicht mehr korrekt geladen. Die entsprechenden Fehlermeldungen finden Sie im Anhang.
+
+Wir bitten Sie um Unterstützung bei der Analyse und Behebung der Probleme.
+
+Vielen Dank im Voraus.
+
+Mit freundlichen Grüßen  
+[Ihr Name]
+
+---
+
+Если хочешь, могу адаптировать письмо под более формальный стиль, добавить технические детали или подготовить версию для пересылки клиенту.
+
+
+
+
 
 Вот перевод твоего вопроса на немецкий язык в стиле технической инструкции:
 
