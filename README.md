@@ -1,3 +1,89 @@
+---
+
+🍯 Medovik – Honigkuchen mit Sauerrahmcreme (gekochter Teig)
+
+Zutaten
+
+Für den Teig:
+
+150 g Butter
+
+150 g Zucker
+
+2 EL Honig
+
+1 TL Natron (ohne Hügel)
+
+2 Eier
+
+ca. 450–500 g Mehl
+
+
+Für die Creme:
+
+600–700 g dicke Sauerrahm
+
+120–150 g Zucker oder Puderzucker
+
+
+
+---
+
+👩‍🍳 Zubereitung
+
+Honigbasis kochen
+
+Die Butter im Wasserbad schmelzen.
+
+Die geschmolzene Butter in einen leeren Topf geben, in dem der Teig gekocht wird, und auf mittlere Hitze stellen.
+
+Zucker und Honig hinzufügen und unter ständigem Rühren erhitzen, bis sich alles vollständig aufgelöst hat.
+
+Natron einrühren — die Masse beginnt stark zu schäumen und geht auf. Nicht erschrecken, das ist eine normale Reaktion.
+
+Weiter rühren und kochen, bis die Masse leicht karamellbraun wird. Wichtig: nicht anbrennen lassen.
+
+Vom Herd nehmen und auf eine warme Temperatur abkühlen lassen.
+
+
+---
+
+Teig herstellen
+
+Eier hinzufügen und schnell glatt rühren.
+
+Nach und nach das gesiebte Mehl einarbeiten. Einen weichen, elastischen Teig kneten — leicht klebrig, aber formbar.
+
+Den Teig in Frischhaltefolie wickeln und mindestens 30–60 Minuten im Kühlschrank ruhen lassen.
+
+
+---
+
+Böden backen
+
+Den Teig in 6–8 Teile teilen.
+
+Jeden Teil dünn auf Backpapier ausrollen.
+
+Bei 180 °C etwa 4–5 Minuten goldbraun backen.
+
+Reste trocknen und zu Krümeln mahlen.
+
+
+---
+
+Creme & Zusammensetzen
+
+Sauerrahm mit Zucker glatt rühren.
+
+Die Böden bestreichen, den Kuchen schichten, oben und an den Seiten eincremen und mit Krümeln bestreuen.
+
+Mindestens 6–8 Stunden (besser über Nacht) durchziehen lassen.
+
+
+
+
+
 Вот аккуратно оформленный и стилистически корректный вариант письма на немецком — без лишних формальностей, но профессионально и по делу:
 
 ---
