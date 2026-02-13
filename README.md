@@ -1,3 +1,12 @@
+Sehr geehrter Herr X,  
+vielen Dank für die Erstellung der Vorlage. Sie entspricht unseren Anforderungen, und Sie können sie gern auf dem Portal installieren.  
+Bitte berücksichtigen Sie zudem, dass heute um 14:00 Uhr die Firma B die Ubuntu‑Konfigurationen vornehmen wird.
+
+Mit freundlichen Grüßen  
+
+
+
+
 Betreff: Weitere Flächen zur Bearbeitung
 
 Sehr geehrte Frau X,  
