@@ -1,6 +1,14 @@
+Betreff: Weitere Flächen zur Bearbeitung
+
+Sehr geehrte Frau X,  
+ich möchte nachfragen, ob es derzeit noch weitere Flächen gibt, die wir bearbeiten sollen.  
+Vielen Dank im Voraus für Ihre Rückmeldung.
+
+
+
 ---
 
-🍯 Medovik – Honigkuchen mit Sauerrahmcreme (gekochter Teig)
+Medovik – Honigkuchen mit Sauerrahmcreme (gekochter Teig)
 
 Zutaten
 
