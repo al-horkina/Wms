@@ -1,3 +1,14 @@
+Hallo Herr X,
+
+ich habe das Reporting auf dem Portal geprüft – alles funktioniert gut und lässt sich leicht einstellen. Vielen Dank dafür.
+
+Dieses Reporting kann auch auf anderen Portalen eingesetzt werden.
+
+
+
+
+
+
 Sehr geehrter Herr X,  
 vielen Dank für die Erstellung der Vorlage. Sie entspricht unseren Anforderungen, und Sie können sie gern auf dem Portal installieren.  
 Bitte berücksichtigen Sie zudem, dass heute um 14:00 Uhr die Firma B die Ubuntu‑Konfigurationen vornehmen wird.
