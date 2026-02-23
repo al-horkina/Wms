@@ -1,3 +1,13 @@
+Вот плавный и профессиональный вариант с благодарностью:
+
+„Es lag ein Fehler in den Daten vor. Wir haben ihn bereits gefunden und ich sende Ihnen morgen die korrigierte Statistik. Vielen Dank für Ihr Verständnis.“
+
+Если хочешь, могу сделать вариант чуть теплее или формальнее.
+
+
+
+
+
 Hallo Herr X,
 
 ich habe das Reporting auf dem Portal geprüft – alles funktioniert gut und lässt sich leicht einstellen. Vielen Dank dafür.
