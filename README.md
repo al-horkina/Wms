@@ -1,3 +1,24 @@
+Betreff: Fehlende Namensangaben – Bitte um Ergänzung
+
+Sehr geehrte Frau X,
+
+ich bearbeite derzeit die Liste der Eigentümerwechsel. Dabei ist mir aufgefallen, dass die Namensangaben an einigen Adressen nicht vollständig vorliegen.
+
+Könnten Sie mir bitte die vollständigen Daten für die folgenden Adressen zukommen lassen:
+
+– [Adresse 1]  
+– [Adresse 2]  
+– [Adresse 3]  
+(Liste nach Bedarf ergänzen)
+
+Vielen Dank im Voraus für Ihre Unterstützung.
+
+
+
+
+
+
+
 Вот плавный и профессиональный вариант с благодарностью:
 
 „Es lag ein Fehler in den Daten vor. Wir haben ihn bereits gefunden und ich sende Ihnen morgen die korrigierte Statistik. Vielen Dank für Ihr Verständnis.“
