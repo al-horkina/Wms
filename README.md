@@ -1,3 +1,7 @@
+Zu diesem Objekt habe ich bisher keine Daten erhalten. Könnten Sie sie mir bitte zusenden, damit wir die Bearbeitung abschließen können.
+
+
+
 Betreff: Fehlende Namensangaben – Bitte um Ergänzung
 
 Sehr geehrte Frau X,
