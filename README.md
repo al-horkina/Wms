@@ -1,3 +1,19 @@
+Sehr geehrte Frau X,
+
+vielen Dank für Ihre Rückmeldung.
+
+Ich habe noch eine Frage: Wir haben den Eigentümer für die Adresse Mühlgasse 7 bereits angepasst. Die Adresse Mühlgasse 12 wird bei uns jedoch separat geführt und enthält noch die alten Daten.
+
+Muss der Eigentümer für Mühlgasse 12 ebenfalls geändert werden? Falls ja, bitte teilen Sie mir den Namen und die Kundennummer mit, damit wir die Bearbeitung korrekt abschließen können.
+
+Mit freundlichen Grüßen  
+
+
+
+
+
+
+
 Zu diesem Objekt habe ich bisher keine Daten erhalten. Könnten Sie sie mir bitte zusenden, damit wir die Bearbeitung abschließen können.
 
 
