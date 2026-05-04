@@ -1,3 +1,16 @@
+Betreff: Aktualisierung der Zugriffsrechte
+
+Sehr geehrter Herr X,
+
+die Zugangsdaten für Herrn [Name] wurden deaktiviert.  
+Frau [Name], Frau [Name] und Herr Z erhalten ihre neuen Zugriffsrechte per E‑Mail und zusätzlich per Post.
+
+
+
+
+
+
+
 Sehr geehrte Frau X,
 
 vielen Dank für Ihre Rückmeldung.
