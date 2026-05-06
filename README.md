@@ -1,3 +1,11 @@
+Sehr geehrte Frau X,
+
+die neuen Layer für Gas, Elektrizität und Beleuchtung sind inzwischen veröffentlicht und stehen ab sofort zur Nutzung bereit.
+
+
+
+
+
 Betreff: Aktualisierung der Zugriffsrechte
 
 Sehr geehrter Herr X,
