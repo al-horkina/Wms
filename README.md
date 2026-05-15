@@ -1,5 +1,13 @@
 Sehr geehrte Frau X,
 
+mir fehlen noch Angaben zur Zisterne: Typ, Größe und welche Grundstücke daran angeschlossen sind.  
+Könnten Sie mir diese bitte zusenden?
+
+Mit freundlichen Grüßen  
+
+
+Sehr geehrte Frau X,
+
 die neuen Layer für Gas, Elektrizität und Beleuchtung sind inzwischen veröffentlicht und stehen ab sofort zur Nutzung bereit.
 
 
