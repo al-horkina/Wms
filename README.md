@@ -1,3 +1,6 @@
+Außerdem benötige ich für die Adresse X die Information, ab wann die Änderungen gelten.
+
+
 Sehr geehrte Frau X,
 
 mir fehlen noch Angaben zur Zisterne: Typ, Größe und welche Grundstücke daran angeschlossen sind.  
