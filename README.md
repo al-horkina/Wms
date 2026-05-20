@@ -1,3 +1,20 @@
+Betreff: Rückmeldung zu den gemeldeten Problemen
+
+Sehr geehrter Herr X,
+
+heute habe ich Ihre Nachricht erhalten, dass es bei der Nutzung in einer Entfernung von ca. 500 m zu Problemen gekommen ist. Bei der Überprüfung des Portals unter Ihrem Login und Passwort konnten jedoch keine Störungen festgestellt werden.
+
+Möglicherweise ist der benötigte Layer deaktiviert oder der maximale Zoom-Level von 200 m verhindert die Darstellung. In diesem Fall wird der Layer ausgegraut und erst bei einem höheren Zoom-Level sichtbar. Sollte das Problem weiterhin bestehen, können Sie zusätzlich den Cache Ihres Browsers löschen.
+
+Ich würde mich über eine kurze Rückmeldung freuen, ob das Problem weiterhin auftritt.
+
+Mit freundlichen Grüßen  
+
+
+
+
+
+
 Außerdem benötige ich für die Adresse X die Information, ab wann die Änderungen gelten.
 
 
