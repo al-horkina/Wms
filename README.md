@@ -1,3 +1,14 @@
+Sehr geehrter Herr X,
+
+vielen Dank für Ihre Rückmeldung. Schade, dass der Fehler weiterhin besteht.
+
+Gerne können wir uns die Problematik gemeinsam per Fernwartung ansehen, damit wir die Ursache direkt nachvollziehen können. Bitte teilen Sie mir mit, wann es Ihnen zeitlich am besten passt.
+
+
+
+
+
+
 Betreff: Rückmeldung zu den gemeldeten Problemen
 
 Sehr geehrter Herr X,
