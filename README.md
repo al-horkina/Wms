@@ -1,3 +1,21 @@
+Betreff: Problem bei der Druckausgabe in Gelnhausen – Layer „Friedhofsfläche“
+
+Sehr geehrter Herr X,
+
+bei der Druckausgabe in Gelnhausen (Bereich Friedhof) ist ein Problem aufgetreten. Der Layer „Friedhofsfläche“ überdeckt sämtliche anderen Layer. In der Vorschau wird jedoch alles korrekt dargestellt.
+
+Die Einstellungen im Manager sind richtig, und auch eine erneute Veröffentlichung des Layers hat das Problem nicht behoben.
+
+Könnten Sie uns bitte dabei unterstützen, dieses Problem zu lösen?
+
+Mit freundlichen Grüßen  
+
+
+
+
+
+
+
 Sehr geehrter Herr X,
 
 vielen Dank für Ihre Rückmeldung. Schade, dass der Fehler weiterhin besteht.
