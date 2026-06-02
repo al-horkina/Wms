@@ -1,3 +1,11 @@
+Guten Morgen, Herr X,
+
+vielen Dank für Ihre schnelle Rückmeldung. Das hat unser Problem gelöst.
+
+Mit freundlichen Grüßen  
+
+
+
 Betreff: Problem bei der Druckausgabe in Gelnhausen – Layer „Friedhofsfläche“
 
 Sehr geehrter Herr X,
