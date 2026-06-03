@@ -1,3 +1,20 @@
+Betreff: Verbesserungen im WebGIS Gelnhausen – Friedhof
+
+Sehr geehrte Frau X,
+
+für den WebGIS‑Bereich Friedhof wurden Verbesserungen vorgenommen. Außerdem wurden folgende Funktionen ergänzt:
+
+- A – …  
+- B – …  
+- C – …
+
+Bei Fragen oder weiteren Punkten melden Sie sich gern.
+
+Mit freundlichen Grüßen  
+Александра
+
+
+
 Guten Morgen, Herr X,
 
 vielen Dank für Ihre schnelle Rückmeldung. Das hat unser Problem gelöst.
