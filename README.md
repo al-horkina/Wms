@@ -1,3 +1,20 @@
+Betreff: Überprüfung der bestehenden Zugänge
+
+Sehr geehrte Frau X,
+
+aktuell ist die maximale Anzahl der verfügbaren Zugänge bereits vergeben.  
+Anbei sende ich Ihnen die Liste der derzeit aktiven Zugänge.
+
+Könnten Sie bitte prüfen, ob alle aufgeführten Personen den Zugang weiterhin benötigen? Falls nicht, könnten wir frei werdende Zugänge einem neuen Mitarbeiter zuweisen.
+
+Vielen Dank im Voraus.
+
+Mit freundlichen Grüßen  
+
+
+
+
+
 Betreff: Verbesserungen im WebGIS Gelnhausen – Friedhof
 
 Sehr geehrte Frau X,
