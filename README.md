@@ -1,3 +1,17 @@
+Guten Morgen, Frau X,
+
+da ich im Urlaub war, melde ich mich erst jetzt bei Ihnen.  
+Ihr neuer Kollege, Herr X, erhält seinen Zugang per Post.
+
+Folgende Nutzer wurden deaktiviert:  
+– …  
+– …  
+– …
+
+
+
+
+
 Betreff: Überprüfung der bestehenden Zugänge
 
 Sehr geehrte Frau X,
