@@ -1,3 +1,19 @@
+Betreff: PNG-Datei wird in DesktopGIS 2023 nicht angezeigt
+
+Sehr geehrter Herr X,
+
+beim Öffnen einer PNG-Datei in DesktopGIS 2023 wird das Bild nicht angezeigt. In der älteren Version DesktopGIS 2015 lässt sich dieselbe Datei jedoch problemlos öffnen.
+
+Könnten Sie bitte prüfen, woran das liegen könnte?  
+Die betreffende Datei habe ich dem Schreiben beigefügt.
+
+Mit freundlichen Grüßen  
+
+
+
+
+
+
 Guten Morgen, Frau X,
 
 da ich im Urlaub war, melde ich mich erst jetzt bei Ihnen.  
