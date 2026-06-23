@@ -1,3 +1,17 @@
+Betreff: Workshop – Nutzerliste
+
+Guten Morgen, Herr [Name],
+
+vielen Dank für Ihr Interesse und Ihre Teilnahme am Workshop.  
+
+Wie besprochen, sende ich Ihnen die aktuelle Liste der Nutzer.  
+Sollten einzelne Zugänge entfernt werden oder neue benötigt werden, übernehme ich das gern.
+
+Viele Grüße  
+
+
+
+
 Betreff: PNG-Datei wird in DesktopGIS 2023 nicht angezeigt
 
 Sehr geehrter Herr X,
