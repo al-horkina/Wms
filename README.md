@@ -1,3 +1,19 @@
+Betreff: Excel-Tabelle – Flächennummern und Zuordnung
+
+Sehr geehrte Frau X,
+
+anbei erhalten Sie die Excel-Tabelle.  
+Auf dem ersten Tabellenblatt finden Sie alle Objekte mit den jeweiligen Flächennummern.  
+
+Über diese Nummer können Sie auf den weiteren Tabellenblättern die Daten entsprechend sortieren und die passenden Teilflächen oder die Ausstattung auswählen.
+
+Bei Fragen stehe ich Ihnen gern zur Verfügung.
+
+Mit freundlichen Grüßen  
+Александра
+
+
+
 Betreff: Workshop – Nutzerliste
 
 Guten Morgen, Herr [Name],
