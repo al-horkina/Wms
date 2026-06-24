@@ -1,3 +1,15 @@
+Betreff: Warteliste für den WebGIS‑Zugang
+
+Sehr geehrter Herr X,
+
+in unserer Warteliste für den WebGIS‑Zugang befindet sich derzeit Herr Y. Ich würde ihm den Zugang gerne freischalten, allerdings ist die maximale Anzahl der verfügbaren Zugänge bereits erreicht.
+
+Ich sende Ihnen im Anhang die Liste der Personen, die aktuell Zugang haben.  
+Könnten Sie bitte prüfen, ob alle diese Zugänge weiterhin benötigt werden? Falls nicht, könnten wir eine frei werdende Lizenz dem neuen Kollegen zuweisen.
+
+
+
+
 Betreff: Excel-Tabelle – Flächennummern und Zuordnung
 
 Sehr geehrte Frau X,
