@@ -1,3 +1,17 @@
+Sehr geehrte Damen und Herren,
+
+der Zugang von Herrn X wurde deaktiviert.
+
+Um Herrn U einen neuen Zugang einzurichten, benötige ich folgende Informationen:  
+- die Abteilung, in der er tätig ist,  
+- seine geschäftliche E‑Mail-Adresse,  
+- sowie seine Telefonnummer.
+
+Vielen Dank im Voraus für die
+
+
+
+
 Betreff: Warteliste für den WebGIS‑Zugang
 
 Sehr geehrter Herr X,
