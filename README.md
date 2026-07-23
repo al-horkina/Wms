@@ -1,3 +1,16 @@
+Sehr geehrter Herr X,
+
+Herr U erhält den Zugang zum WebGIS wie gewohnt per E‑Mail.  
+Derzeit ist jedoch die maximale Anzahl an registrierten Nutzern erreicht. Wenn Sie möchten, kann ich Ihnen eine Übersicht der aktuellen Benutzer zusenden – möglicherweise wird der Zugang von einigen Personen nicht mehr benötigt.
+
+Geben Sie mir bitte kurz Bescheid, wie wir weiter verfahren sollen.
+
+Mit freundlichen Grüßen  
+
+
+
+
+
 Sehr geehrte Damen und Herren,
 
 der Zugang von Herrn X wurde deaktiviert.
