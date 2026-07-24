@@ -1,3 +1,16 @@
+Betreff: WebGIS – maximale Nutzerzahl erreicht
+
+Sehr geehrter Herr X,
+
+Für das WebGIS ist derzeit die maximale Anzahl an Nutzern erreicht.  
+Wenn Sie möchten, kann ich Ihnen eine Übersicht der aktuellen Benutzer zusenden – möglicherweise wird der Zugang von einigen Personen nicht mehr benötigt.
+
+Sobald ein Zugang frei wird, kann ich Frau H den Zugriff einrichten.
+
+Mit freundlichen Grüßen  
+
+
+
 Sehr geehrter Herr X,
 
 Herr U erhält den Zugang zum WebGIS wie gewohnt per E‑Mail.  
