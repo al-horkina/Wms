@@ -1,3 +1,9 @@
+Antwort
+
+danke für die Info. Alles klar – das passt für uns.  
+Wir nehmen morgen zwischen 9 und 10 Uhr keine Änderungen vor.
+
+
 Betreff: WebGIS – maximale Nutzerzahl erreicht
 
 Sehr geehrter Herr X,
