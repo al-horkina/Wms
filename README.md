@@ -1,3 +1,17 @@
+> Betreff: Datenübernahme für das Monitoring der Pachtpotentialflächen  
+>  
+> Sehr geehrte Frau H.,  
+>  
+> für den nächsten Schritt benötigen wir einen kurzen Fernzugang, um die bestehenden Daten einmalig zu übernehmen. Der Vorgang dauert etwa 10 Minuten.  
+>  
+> Nach der Datenübernahme sollten in den betreffenden Pachtflächen für ca. 2–3 Tage keine Änderungen vorgenommen werden. Die Daten können in dieser Zeit eingesehen und ausgedruckt werden, jedoch nicht bearbeitet.  
+>  
+> Bitte teilen Sie uns mit, wann Ihnen ein kurzer Termin für den Fernzugang passt.  
+>  
+> Mit freundlichen Grüßen  
+
+
+
 Antwort
 
 danke für die Info. Alles klar – das passt für uns.  
