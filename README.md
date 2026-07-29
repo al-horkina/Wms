@@ -1,3 +1,10 @@
+> Vielen Dank, alles funktioniert jetzt einwandfrei.  
+> Die Einstellungen habe ich so korrigiert, wie wir sie brauchen.  
+> Biebergemünd lassen wir wie es ist.
+
+
+
+
 Betreff: Datenübernahme für das Monitoring der Pachtpotentialflächen  
 >  
 > Sehr geehrte Frau H.,  
