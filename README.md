@@ -1,3 +1,12 @@
+Sehr geehrte Frau H.,
+
+vielen Dank für Ihre Rückmeldung. Der vorgeschlagene Zeitpunkt passt uns gut.  
+Bitte geben Sie mir kurz Bescheid, sobald Sie bereit sind, dann rufe ich Sie an.
+
+
+
+
+
 > Vielen Dank, alles funktioniert jetzt einwandfrei.  
 > Die Einstellungen habe ich so korrigiert, wie wir sie brauchen.  
 > Biebergemünd lassen wir wie es ist.
