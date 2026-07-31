@@ -1,3 +1,20 @@
+Betreff: Rückfrage zu einzelnen Pachtverträgen  
+
+Sehr geehrte Frau H.,  
+
+bei der Verarbeitung der Daten ist eine Rückfrage zu folgenden Pachtverträgen entstanden:  
+– …  
+– …  
+– …  
+
+Für die korrekte Weiterbearbeitung benötigen wir hierzu eine kurze Klärung.  
+Bitte teilen Sie uns mit, wie diese Fälle einzuordnen sind.  
+
+Mit freundlichen Grüßen  
+[Name]
+
+
+
 Sehr geehrte Frau H.,
 
 vielen Dank für Ihre Rückmeldung. Der vorgeschlagene Zeitpunkt passt uns gut.  
