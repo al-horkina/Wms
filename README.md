@@ -1,3 +1,8 @@
+Rückfrage zu den aktuellen Informationen der betreffenden Flächen  
+
+
+
+
 Wir benötigen die aktuellen Informationen und den Bearbeitungsstand zu diesen Flächen, da ersichtlich ist, dass die grafische Darstellung nicht den aktuellen Daten entspricht und die Flächen teilweise über aktuelle Bereiche hinweg dargestellt werden.
 
 
