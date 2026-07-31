@@ -1,3 +1,10 @@
+Wir benötigen die aktuellen Informationen und den Bearbeitungsstand zu diesen Flächen, da ersichtlich ist, dass die grafische Darstellung nicht den aktuellen Daten entspricht und die Flächen teilweise über aktuelle Bereiche hinweg dargestellt werden.
+
+
+Fläche 1: Welche aktuelle Information bzw. welcher Stand liegt für diese Fläche vor? Sie überlagert den derzeit grünen Bereich.
+
+
+
 Betreff: Rückfrage zu einzelnen Pachtverträgen  
 
 Sehr geehrte Frau H.,  
