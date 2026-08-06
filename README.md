@@ -1,3 +1,12 @@
+Sehr geehrte Frau H.,
+
+vielen Dank für Ihre Rückmeldung, sie hat uns sehr weitergeholfen.  
+Wir prüfen derzeit die Flächen, die verpachtet sind und sich im privaten Bereich befinden.  
+Können Sie uns bitte noch kurz mitteilen, ob diese Flächen aktuell sind oder nicht?
+
+
+
+
 Guten Tag, Herr H,  
 > das Testportal sieht sehr gut aus, und ich habe keine Funktionsstörungen festgestellt.  
 > Ich schlage vor, die Aktualisierung auf 16:30 Uhr zu planen, da Herr U heute später eintrifft und noch sein Okay geben soll.  
