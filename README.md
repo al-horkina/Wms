@@ -1,3 +1,10 @@
+Guten Tag, Herr H,  
+> Herr U ist jetzt da und hat bestätigt, dass die Design‑Aktualisierung zwischen 15:30 und 16:30 Uhr durchgeführt werden kann.  
+> Viele Grüße
+
+
+
+
 Sehr geehrte Frau H.,
 
 vielen Dank für Ihre Rückmeldung, sie hat uns sehr weitergeholfen.  
