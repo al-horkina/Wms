@@ -1,5 +1,10 @@
 Guten Tag, Herr H,  
 > Herr U ist jetzt da und hat bestätigt, dass die Design‑Aktualisierung zwischen 15:30 und 16:30 Uhr durchgeführt werden kann.  
+> Die Sitemap kann aktiv bleiben, sie sieht so aus, wie sie soll. Lediglich die Links sollten wir noch einmal prüfen, damit alles korrekt funktioniert.  
+> Viele Grüße
+
+Guten Tag, Herr H,  
+> Herr U ist jetzt da und hat bestätigt, dass die Design‑Aktualisierung zwischen 15:30 und 16:30 Uhr durchgeführt werden kann.  
 > Viele Grüße
 
 
