@@ -1,3 +1,11 @@
+Guten Tag, Herr H,  
+> das Testportal sieht sehr gut aus, und ich habe keine Funktionsstörungen festgestellt.  
+> Ich schlage vor, die Aktualisierung auf 16:30 Uhr zu planen, da Herr U heute später eintrifft und noch sein Okay geben soll.  
+
+
+
+
+
 Rückfrage zu den aktuellen Informationen der betreffenden Flächen  
 
 
