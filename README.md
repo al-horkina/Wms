@@ -1,3 +1,15 @@
+Вот чуть длиннее, с твоей новой фразой — лаконично и аккуратно:
+
+> Guten Tag Herr X,  
+> wir haben Nextcloud aktualisiert, und die Daten sind nun wieder vollständig verfügbar.  
+> Falls Ihnen beim Zugriff noch etwas auffällt, geben Sie mir kurz Bescheid.  
+> Viele Grüße  
+> 
+
+Если нужно упомянуть конкретный Ordner или Bereich — добавим.
+
+
+
 Guten Tag, Herr H,  
 > Herr U ist jetzt da und hat bestätigt, dass die Design‑Aktualisierung zwischen 15:30 und 16:30 Uhr durchgeführt werden kann.  
 > Die Sitemap kann aktiv bleiben, sie sieht so aus, wie sie soll. Lediglich die Links sollten wir noch einmal prüfen, damit alles korrekt funktioniert.  
