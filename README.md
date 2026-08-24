@@ -1,3 +1,28 @@
+Вот вся инструкция, собранная полностью и в правильной последовательности — единый, аккуратный и профессиональный текст:
+
+---
+
+Kurze Anleitung zur Ansicht der Pacht‑Daten im WebGIS
+
+1. Die Pacht‑Daten sind im Reiter Planung – Pachtflächen verfügbar.  
+
+2. Der Layer Pachtflächen zeigt grafisch alle Flächen, die verpachtet sind.  
+
+3. Beim Anklicken einer solchen Fläche können Sie die Objektkarte öffnen und Informationen zur jeweiligen Fläche einsehen.  
+
+4. In der Objektkarte sind außerdem Informationen zum Pächter, zum Pachtzins sowie die Statistik dazu verfügbar, wie groß der Anteil des Pächters im jeweiligen Stadtteil ist.  
+
+5. Der Layer Pachtflächen – Statistik zum Stadtteil zeigt alle Pachtflächen an. Die Flächen, die dabei blau bleiben und nicht vom violetten Layer Pachtflächen überdeckt werden, stellen das Pachtpotenzial dar – also die Bereiche, die noch nicht verpachtet sind.  
+
+6. Über den Layer Themen können Sie eine visuelle Übersicht zu den Stadtteilen erhalten. Beim Anklicken öffnet sich die Objektkarte Pachtflächen – Statistik zum Stadtteil.
+
+---
+
+Если нужно, могу оформить это как отдельный PDF‑текст, сделать более формально или добавить нумерацию в другом стиле.
+
+
+
+
 Вот готовый, аккуратный и логичный вариант письма с добавлением твоей новой части:
 
 ---
