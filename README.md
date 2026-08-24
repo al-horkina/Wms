@@ -1,3 +1,27 @@
+Вот готовый, аккуратный и логичный вариант письма с добавлением твоей новой части:
+
+---
+
+Betreff: Abschluss der Datenbearbeitung und Termin für Fernwartung  
+
+Sehr geehrte Frau H.,
+
+wir haben die Bearbeitung der Tabellen abgeschlossen und können Ihnen die aktualisierten Daten nun wieder zurückgeben, damit Sie die weiteren Änderungen übernehmen können.  
+
+Die Daten sind außerdem bereits im WebGIS verfügbar. Dem Schreiben füge ich eine kurze Anleitung bei.  
+
+Bitte teilen Sie uns mit, welcher Termin für eine kurze Fernwartung für Sie passend ist.  
+
+Mit freundlichen Grüßen  
+[Name]
+
+---
+
+Если хочешь, могу сделать письмо ещё короче или добавить уточнение, что Fernwartung dauert nur wenige Minuten.
+
+
+
+
 Вот чуть длиннее, с твоей новой фразой — лаконично и аккуратно:
 
 > Guten Tag Herr X,  
