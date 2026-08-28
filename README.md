@@ -1,3 +1,13 @@
+Вот готовый, естественный и аккуратный вариант на немецком, с добавлением просьбы сообщить, когда у них будет время:
+
+> Wir haben die durch den Änderungserlass vom 04. August 2026 vorgenommenen Anpassungen an der HBO geprüft und daraufhin das entsprechende Update umgesetzt.  
+> Das Update soll vor Ort per Fernwartung installiert werden, damit die angepassten Vordrucke BAB27 und BAB43 spätestens ab dem 01. November 2026 in GeoAS Bauantrag HBO zur Verfügung stehen.  
+> Bitte teilen Sie uns mit, wann Sie Zeit für die Installation haben.
+
+Если нужно сделать короче или формальнее — скажи.
+
+
+
 Вот вся инструкция, собранная полностью и в правильной последовательности — единый, аккуратный и профессиональный текст:
 
 ---
