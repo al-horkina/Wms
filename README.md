@@ -1,3 +1,10 @@
+
+vielen Dank für Ihre Rückmeldung. Dann melden wir uns am Freitag zwischen 9 und 12 Uhr bei Ihnen.
+
+Mit freundlichen Grüßen  
+
+
+
 Вот готовый, естественный и аккуратный вариант на немецком, с добавлением просьбы сообщить, когда у них будет время:
 
 > Wir haben die durch den Änderungserlass vom 04. August 2026 vorgenommenen Anpassungen an der HBO geprüft und daraufhin das entsprechende Update umgesetzt.  
