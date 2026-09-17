@@ -1,3 +1,23 @@
+Betreff: Rückfrage zu den WMS‑Layern
+
+Sehr geehrter Herr X,
+
+wir haben eine Frage zu den eingebundenen WMS‑Layern.  
+Die verwendeten Links finden Sie hier:  
+[Links einfügen]
+
+Im Web‑Client werden die verfügbaren Layer korrekt angezeigt, jedoch bleibt die Karte selbst leer. Fehlermeldungen erscheinen nicht.  
+Im Desktop‑GIS werden dieselben WMS‑Layer vollständig dargestellt.
+
+Zusätzlich ist uns aufgefallen, dass der Layer DTK25 sichtbar wird, sobald das Browserfenster verkleinert wird. In normaler Fenstergröße bleibt die Karte jedoch leer.
+
+Wir haben die Layer auch testweise als Karte eingebunden, mit dem gleichen Ergebnis.
+
+Könnten Sie uns bitte mitteilen, woran die fehlende Darstellung liegen könnte?
+
+
+
+
 Betreff: Rückfrage zur Darstellung der WMS‑Dienste
 
 Sehr geehrter Herr X,
