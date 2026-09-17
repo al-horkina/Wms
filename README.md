@@ -1,3 +1,24 @@
+Betreff: Rückfrage zur WMS‑Darstellung
+
+Sehr geehrter Herr X,
+
+wir haben eine Frage zu den eingebundenen WMS‑Diensten.  
+Die verwendeten Links finden Sie hier:  
+[Links einfügen]
+
+Im Web‑Client werden die verfügbaren Layer korrekt angezeigt, jedoch bleibt die Karte selbst leer. Fehlermeldungen erscheinen nicht.  
+Im Desktop‑GIS werden dieselben WMS‑Links vollständig dargestellt.
+
+Wir haben die Dienste zusätzlich als Karte getestet, mit dem gleichen Ergebnis.
+
+Könnten Sie uns bitte mitteilen, woran die fehlende Darstellung liegen könnte?
+
+Mit freundlichen Grüßen  
+Александра
+
+
+
+
 
 vielen Dank für Ihre Rückmeldung. Dann melden wir uns am Freitag zwischen 9 und 12 Uhr bei Ihnen.
 
