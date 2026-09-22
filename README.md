@@ -1,3 +1,26 @@
+Betreff: Frage zu den WMS‑Layern
+
+Sehr geehrter Herr X,
+
+vielen Dank für Ihre Rückmeldung und den Hinweis zu singleTile = false.  
+Damit konnten wir das Darstellungsproblem lösen, was uns sehr weitergeholfen hat.
+
+Im Zuge dessen ist jedoch eine weitere Frage entstanden:  
+Beim Einbinden der WMS‑Layer als Externer Dienst steht unten die Option „zusammenfassen“ zur Verfügung.  
+Wenn wir dieselben Layer als Karte hinzufügen, erscheint diese Option allerdings nicht. Es wäre für unsere Arbeit sehr hilfreich, wenn wir die Funktion auch dort nutzen könnten.
+
+Außerdem haben wir festgestellt, dass beim Aktivieren von „zusammenfassen“ die Layer, die sich in Ordnern befinden, nicht in den zusammengefassten Gesamt‑Layer übernommen werden.
+
+Zusätzlich wäre eine Möglichkeit zum Aktualisieren bzw. Überprüfen des WMS‑Links sehr praktisch. Momentan müssen wir den Layer löschen und neu einbinden, sobald sich der Link oder die Layerstruktur ändert. Eine direkte Aktualisierung würde den Arbeitsablauf deutlich erleichtern.
+
+Wir würden uns freuen, wenn Sie uns sagen könnten, ob diese Funktionen vorgesehen sind oder ob es eventuell eine alternative Lösung gibt.
+
+Vielen Dank nochmals für Ihre Unterstützung.
+
+Mit freundlichen Grüßen
+
+
+
 Betreff: Rückfrage zu den WMS‑Layern
 
 Sehr geehrter Herr X,
