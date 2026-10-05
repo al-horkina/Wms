@@ -1,3 +1,11 @@
+Guten Morgen Frau X,  
+> ich bin bereits an meinem Arbeitsplatz und wir können einen neuen Termin gern abstimmen. Bitte teilen Sie mir mit, wann es Ihnen am besten passt.  
+> Mit freundlichen Grüßen  
+> Александра
+
+
+
+
 Betreff: Frage zu den WMS‑Layern
 
 Sehr geehrter Herr X,
