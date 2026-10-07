@@ -1,3 +1,13 @@
+Betreff: Datenlieferung Steinau
+
+Sehr geehrter Herr X,
+
+die Daten, die wir liefern möchten, betreffen Steinau.  
+Die Kanalunterlagen liegen derzeit im Nextcloud, da wir bislang keine Rückmeldung erhalten haben, ob sie bereits installiert wurden.
+
+Außerdem haben wir den Server synchronisiert, die aktuellen Daten sollten Ihnen daher vorliegen.
+
+
 Guten Morgen Frau X,  
 > ich bin bereits an meinem Arbeitsplatz und wir können einen neuen Termin gern abstimmen. Bitte teilen Sie mir mit, wann es Ihnen am besten passt.  
 > Mit freundlichen Grüßen  
