@@ -1,3 +1,20 @@
+Betreff: Rückfragen zur Bearbeitung der gesplitteten Abwassergebühr
+
+Sehr geehrte Damen und Herren,
+
+bei der Bearbeitung der gesplitteten Abwassergebühr sind bei mir mehrere Rückfragen entstanden.
+
+AZ1: Welches Kundennummer erhält das zweite Grundstück nach der Teilung, und ab welchem Datum ist diese gültig?  
+AZ2, AZ3, AZ4: Für diese Aktenzeichen fehlt ebenfalls das Datum „gültig ab“. Könnten Sie mir die entsprechenden Angaben mitteilen?
+
+Ich bitte um eine kurze Rückmeldung.
+
+Mit freundlichen Grüßen  
+A. [Nachname]
+
+
+
+
 Betreff: Datenlieferung Steinau
 
 Sehr geehrter Herr X,
