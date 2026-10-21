@@ -1,3 +1,9 @@
+Bei der Abgleich mit öffentlichen Geoinformationen wurden die Änderungen an der Dachform sowie der berücksichtigte Dachüberstand eingearbeitet.
+
+
+
+
+
 Betreff: Rückfragen zur Bearbeitung der gesplitteten Abwassergebühr
 
 Sehr geehrte Damen und Herren,
