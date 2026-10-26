@@ -1,3 +1,19 @@
+Betreff: Report zur Fehlermeldung
+
+Sehr geehrtes Support‑Team,
+
+vielen Dank für Ihre Rückmeldung.  
+Ich sende Ihnen hiermit den gewünschten Report.
+
+Die betreffende Gruppe ist wie folgt aufgebaut:  
+(здесь вставь своё описание структуры группы — я могу сформулировать его, если дашь детали)
+
+Bitte geben Sie mir Bescheid, falls weitere Informationen benötigt werden.
+
+Mit freundlichen Grüßen  
+
+
+
 
 Betreff: Fehler beim Abgleich „Alle Daten mit Einstellungen in GeoAS“ + Frage zu unterstützten Symbolfonts
 
