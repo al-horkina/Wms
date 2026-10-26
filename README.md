@@ -1,3 +1,19 @@
+Betreff: Ergänzende Information zu den Themen/Layern
+
+Sehr geehrtes Support‑Team,
+
+vielen Dank für Ihre Rückmeldung.  
+Ich möchte Ihnen noch eine weitere Information mitteilen:
+
+Layer 1 und Layer 2 gehören zu zwei separaten Themen, die beide zu Tabelle 3 gehören und ebenfalls im WebGIS veröffentlicht werden müssen.  
+Eine Publikation ohne Themen führt bei mir zur gleichen Fehlermeldung, wie zuvor beschrieben.
+
+Bitte informieren Sie mich, falls weitere Details benötigt werden.
+
+Mit freundlichen Grüßen  
+
+
+
 Betreff: Report zur Fehlermeldung
 
 Sehr geehrtes Support‑Team,
