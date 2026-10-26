@@ -1,3 +1,25 @@
+
+Betreff: Fehler beim Abgleich „Alle Daten mit Einstellungen in GeoAS“ + Frage zu unterstützten Symbolfonts
+
+Sehr geehrtes Support‑Team,
+
+bei der Veröffentlichung neuer Daten im WebGIS ist bei mir ein Fehler im Schritt „Alle Daten mit Einstellungen in GeoAS abgleichen“ aufgetreten. Die Meldung verweist auf die Config‑Datei.  
+Den Screenshot der Fehlermeldung habe ich beigefügt.  
+Könnten Sie bitte prüfen, wodurch dieser Fehler verursacht wird und wie ich ihn beheben kann?
+
+Außerdem hätte ich eine weitere Frage:  
+Welche symbolischen Schriftarten werden im WebGIS unterstützt? Gibt es eine Liste oder eine Dokumentation dazu?  
+Mich interessieren konkret MapInfo 3.0 und MapInfo Cartographic.
+
+Vielen Dank im Voraus.
+
+Mit freundlichen Grüßen  
+
+
+
+
+
+
 Bei der Abgleich mit öffentlichen Geoinformationen wurden die Änderungen an der Dachform sowie der berücksichtigte Dachüberstand eingearbeitet.
 
 
