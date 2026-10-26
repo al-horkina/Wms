@@ -1,3 +1,8 @@
+Sehr geehrtes Support‑Team,
+
+die angeforderten Daten habe ich diesem Schreiben beigefügt.
+
+
 Betreff: Ergänzende Information zu den Themen/Layern
 
 Sehr geehrtes Support‑Team,
