@@ -1,3 +1,14 @@
+Betreff: Rückmeldung zur Veröffentlichung
+
+Sehr geehrtes Support‑Team,
+
+vielen Dank für Ihre Antwort.  
+Ich habe 2 von 3 großen Flächen gelöscht und die Daten anschließend erneut veröffentlicht.  
+Die Fehlermeldung besteht weiterhin.
+
+
+
+
 Sehr geehrtes Support‑Team,
 
 die angeforderten Daten habe ich diesem Schreiben beigefügt.
