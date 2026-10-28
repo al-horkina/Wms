@@ -1,3 +1,14 @@
+Sehr geehrtes Support‑Team,
+
+vielen Dank für Ihre Antwort.  
+So werde ich es machen.
+
+Interessant ist jedoch Folgendes:  
+Beim Öffnen des alten Configs im Publisher sieht die Beschreibung‑Zeile wie folgt aus:  
+
+
+
+
 Betreff: Rückmeldung zur Veröffentlichung
 
 Sehr geehrtes Support‑Team,
