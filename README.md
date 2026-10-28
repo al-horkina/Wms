@@ -1,3 +1,18 @@
+Sehr geehrtes Support‑Team,
+
+vielen Dank für Ihre Unterstützung.  
+Die Thema „Nutzungsart“ wurde ohne Probleme veröffentlicht.  
+Ich habe außerdem – wie von Ihnen empfohlen – ein Textfeld ergänzt, und auch die erste Thema wurde korrekt veröffentlicht. Vielen Dank für Ihre Hilfe.
+
+Ein Punkt ist jedoch noch offen:  
+Ich habe weiterhin eine Frage zu den symbolischen Schriftarten.  
+Könnten Sie mir sagen, welche Symbolfonts im WebGIS unterstützt werden?  
+Mich interessieren insbesondere MapInfo 3.0 und MapInfo Cartographic.
+
+
+
+
+
 Betreff: Rückmeldung zur Veröffentlichung
 
 Sehr geehrtes Support‑Team,
