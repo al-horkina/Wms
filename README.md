@@ -1,3 +1,14 @@
+Betreff: Rückmeldung zur Veröffentlichung
+
+Sehr geehrtes Support‑Team,
+
+vielen Dank für Ihre Rückmeldung.  
+Die Fehlermeldung ist verschwunden, und die Signatur wird korrekt angezeigt.  
+Die Themen wurden ebenfalls veröffentlicht – allerdings wird eine der Themen nicht dargestellt.
+
+
+
+
 Sehr geehrtes Support‑Team,
 
 vielen Dank für Ihre Antwort.  
