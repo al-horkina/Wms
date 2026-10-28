@@ -1,3 +1,7 @@
+Vielen Dank für Ihre ausführliche Rückmeldung und Ihre Mühe.  
+Ich werde es entsprechend berücksichtigen.
+
+
 
 Der Fehler bei der Veröffentlichung einer Thema im WebGIS entsteht dadurch, dass nur Themen veröffentlicht werden können, die auf einer Textspalte basieren.  
 Die Lösung besteht darin, eine zusätzliche Textspalte anzulegen und dort unseren Zahlenwert im Textformat zu speichern. Anschließend kann diese Textspalte als Grundlage für die Thema verwendet werden.
