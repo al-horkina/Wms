@@ -1,3 +1,13 @@
+
+Der Fehler bei der Veröffentlichung einer Thema im WebGIS entsteht dadurch, dass nur Themen veröffentlicht werden können, die auf einer Textspalte basieren.  
+Die Lösung besteht darin, eine zusätzliche Textspalte anzulegen und dort unseren Zahlenwert im Textformat zu speichern. Anschließend kann diese Textspalte als Grundlage für die Thema verwendet werden.
+
+
+Der Fehler tritt auf, wenn wir als Beschriftung eine Formel verwenden, zum Beispiel „x + y“.  
+Die Lösung besteht darin, in der Tabelle eine eigene Spalte anzulegen, in der diese Formel gespeichert wird, und anschließend genau diese Spalte als Beschriftung zu verwenden.
+
+
+
 Sehr geehrtes Support‑Team,
 
 vielen Dank für Ihre Unterstützung.  
